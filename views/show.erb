@@ -1,0 +1,11 @@
+<h1>Info of restaurant <%= @restaurant.name %></h1>
+
+<p>Name: <%= @restaurant.name %></p>
+<p>Address: <%= @restaurant.address %></p>
+<p>Rating: <%= @restaurant.rating %></p>
+
+<br>
+<br>
+<p><a href="/restaurants">Show all restaurants</a></p>
+<p><a href="/restaurants/<%= @restaurant.id %>/edit">Edit Restaurant</a></p>
+<p><a href="/restaurants/<%= @restaurant.id %>/destroy">Destroy Restaurant</a></p>
